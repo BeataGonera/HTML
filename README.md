@@ -1,2 +1,2 @@
 # HTML
-Basic HTML features
+*Basic HTML features*
