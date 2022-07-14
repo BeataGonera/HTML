@@ -8,50 +8,54 @@
     <meta name="description" content="Fresh fish for you. Visit our shop!" />
     <title>My first web page</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <style> 
+    #navigation a{
+        color: red;
+    }
+
+    </style>
 </head>
 
 <body>
     <div id="top"></div>
-    <img src="fish.jpeg" width="70%" alt="fish" />
-  
-    <h1> My first web page!</h1>
+
+    <div id="header">
+        <img src="fish.jpeg" width="70%" alt="fish" />
+
+        <h1> Welcome to my fish emporium!</h1>
+        <p>We sell the smelliest fish on the planet!</p>
+    </div>
 
     <hr>
 
-    <ol>
-        <li>
-            <p> Hi, guys! This is <small>my web page!</small> We sell fish!</p>
-        </li>
+    <div id="navigation">
+        <a style="color: red;" href="https://www.facebook.com/friends" target="_blank">Facebook</a>
+        <a href="html_proba.pdf">check out the prices</a>
+    </div>
+
+    <hr>
+
+    <div id="types-of-fish">
+        <h1>Types of fish we sell:</h1>
+        <p>We are experts in selling many types of fish:</p>
         <ol>
-            <li>list item</li>
-            <li>list item</li>
-            <li>list item</li>
+            <li>trouts</li>
+            <li>salmons</li>
+            <li>sharks</li>
         </ol>
-        <li>
-            <p> Hi, guys! This is <sub>my web page!</sub> We sell fish!</p>
-        </li>
-        <li>
-            <p> Hi, <mark>smart</mark>guys! This is my web page! We sell fish!</p>
-        </li>
-        <li>
-            <p>
-            <pre> Hi, guys! This is my web page!
-        We sell fish!</pre>
-            </p>
-        </li>
-    </ol>
+    </div>
 
+
+    <div class="comments">
+        <p>If you like our fish, please leave us a comment.</p>
+        <p>You sell the smelliest fish!</p>
+    </div>
     <hr>
 
-    <dl>
-        <dt>Definition list</dt>
-        <dd>It's a list without any consideration for order.</dd>
-        <dt>Teddy Bear</dt>
-        <dd>A toy you can hug at night. </dd>
-    </dl>
-    <a href="https://www.facebook.com/friends" target="_blank">Facebook</a>
-    <a href="html_proba.pdf">check out the prices</a>
+
     <a href="#top">to top</a>
+
 </body>
 
 </html>
