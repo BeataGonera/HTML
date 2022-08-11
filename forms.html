@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./forms.css">
+    <title>Forms</title>
+</head>
+<body>
+<div id = "form">
+    <form>
+    <label for="username">enter username:</label>
+    <input type="text" id="username" name="username" placeholder="useruser1" required>
+    <br><br>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="user@gmail.com"> 
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="lnf'wbf"><br> <!-- name for backend-->
+
+    <input type="radio" name="gender" value="male">Male<br>
+    <input type="radio" name="gender" value="female">Female<br><!--Thanks to value the server knows what we've chosen-->
+    <input type="radio" name="gender" value="other">Other <br><!--thanks to same name we can choose only one-->
+    <br><br>
+
+    <p>Select your age:</p>
+
+    <input type="radio" id="option-1" name="age" value="0-25">
+    <label for="option-1">0-25</label><br>
+
+    <input type="radio" id="option-2" name="age" value="26-40">
+    <label for="option-2">26-40</label><br>
+
+    <input type="radio" id="option-3" name="age" value="41-...">
+    <label for="option-3">41-...</label>
+
+    <br><br>
+
+    <label for="question">Security question:</label>
+    <select name="question" id="question">
+        <option value="option-1">What color is your favourite pair of socks?</option>
+        <option value="option-2">What is your dog's name?</option>
+        <option value="option-3">What is your wife's name?</option>
+    </select>
+
+        <br><br>
+
+    <label for="answer">Answer:</label>
+    <input type="text" id="answer" name="answer">   
+    
+    <br><br>
+
+    <label for="bio">Your bio:</label><br>
+    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About you..."></textarea>
+
+    <br>
+    <input type="submit" value="Submit">
+    </form>
+
+    </div>
+
+</body>
+</html>

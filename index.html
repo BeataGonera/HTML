@@ -8,13 +8,7 @@
     <meta name="description" content="Fresh fish for you. Visit our shop!" />
     <title>My first web page</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
-    <style> 
-    #navigation a{
-        color: red;
-    }
-
-    </style>
+    
 </head>
 
 <body>
@@ -30,8 +24,12 @@
     <hr>
 
     <div id="navigation">
-        <a style="color: red;" href="https://www.facebook.com/friends" target="_blank">Facebook</a>
-        <a href="html_proba.pdf">check out the prices</a>
+        <ul>
+        <li><a style="color: red;" href="https://www.facebook.com/friends" target="_blank">Facebook</a></li>
+        <li><a href="html_proba.pdf">check out the prices</a></li>
+        <li><a onclick="alert('Welcome to my Fish Emporium!');"
+            href="contact.html">Contact us</a></li>
+        </ul>
     </div>
 
     <hr>
@@ -55,6 +53,7 @@
 
 
     <a href="#top">to top</a>
+
 
 </body>
 
